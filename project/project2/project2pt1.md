@@ -1068,7 +1068,7 @@ readPosts("posts_test3.txt",posts,0,50);
 The zip submission should have three files for this problem: 
 * `Post.h`
 * `Post.cpp`
-* A driver file called `readPostsDriver.cpp`, with only a main() function to test your `readPosts` function. 
+* A driver file called `readPostsDriver.cpp`, with a main() function to test your `readPosts` function. 
   * In your main() function, the test cases should include the creation of an array of class objects that is passed into the readPosts function as a parameter. 
   * You must test the various values that readPosts can return using assert tests.
     * Some conditions in the list below are examples of things you can test. You can refer back to the examples for different things to test.
@@ -1196,7 +1196,7 @@ No posts stored for year 21
 The zip submission should have three files for this problem: 
 * `Post.h`
 * `Post.cpp`
-* A driver called `printPostsByYear.cpp`, with only a main() function to test your member functions and `printPostsByYear` function. 
+* A driver called `printPostsByYear.cpp`, with a main() function to test your member functions and `printPostsByYear` function. 
   * In your main() function, the test cases should include the creation of an array of class objects that is passed into the printPostsByYear function as a parameter.
   * Because this is a void function, call the printPostsByYear function with the expected output in comments. Refer to the [Void Functions with printed output](#void) section on how to write test cases for this function. 
 
@@ -1728,7 +1728,7 @@ readLikes(“users_blank1.txt”, users,num_users_stored, users_arr_size, max_po
 The zip submission should have three files for this problem:
 * `User.h`
 * `User.cpp`
-* A driver file called `readLikesDriver.cpp`, with only a main() function to test your member functions.
+* A driver file called `readLikesDriver.cpp`, with a main() function to test your member functions.
   * You must test the various values that readLikes can return using assert tests.
     * Some conditions in the list below are examples of things you can test. You can refer back to the examples for different things to test.
         * Verify the total number of users that readLikes returns.
@@ -1969,7 +1969,7 @@ The zip submission should have five files for this problem:
 * `Post.cpp`
 * `User.h`
 * `User.cpp`
-* A driver called `getLikesDriver.cpp`, with only a main() function to test your the `getLikes` function.
+* A driver called `getLikesDriver.cpp`, with a main() function to test your the `getLikes` function.
     * You must test the various values that getLikes can return using assert tests.
         * Some conditions in the list below are examples of things you can test. You can refer back to the examples for different things to test.
             * The username does not exist
